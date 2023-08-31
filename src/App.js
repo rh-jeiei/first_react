@@ -11,6 +11,7 @@ import { Ex09 } from "./components/ex09/Ex09";
 import { MusicApp } from "./components/ex10/MusicApp";
 import { Ex11 } from "./components/ex11/Ex11";
 import { Ex12 } from "./components/ex12/Ex12";
+import { Ex15 } from "./components/ex15/Ex15";
 // =>함수 앞에 export를 할땐 객체 형태로 import 해 와야함
 
 const App = () => {
@@ -47,8 +48,10 @@ const App = () => {
       {/* <Ex11 />
       11일차 */}
 
-      <Ex12 />
+      {/* <Ex12 /> */}
       {/* 12일차 */}
+
+      <Ex15 />
     </>
   );
 };
